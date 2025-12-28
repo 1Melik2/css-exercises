@@ -12,6 +12,24 @@ img {
   font-weight: 900;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flowers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flowers, .text {
+  display: flex;
+  margin: 20px;
+}
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
