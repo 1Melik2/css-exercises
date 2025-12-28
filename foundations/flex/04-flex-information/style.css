@@ -7,28 +7,23 @@ img {
   height: 100px;
 }
 
+body {
+  text-align: center;
+}
+
 .title {
-  font-size: 36px;
-  font-weight: 900;
+  margin-bottom: 32px;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flowers {
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 52px;
 }
 
-.flowers, .text {
-  display: flex;
-  margin: 20px;
+.info {
+  max-width: 200px;
 }
-
 
 /* do not edit this footer */
 .footer {
