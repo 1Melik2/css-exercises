@@ -24,3 +24,30 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;    /* This puts the <li> items in a row */
+  gap: 20px;        /* This creates even space between your links */
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0 24px;
+}
